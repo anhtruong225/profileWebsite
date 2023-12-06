@@ -29,7 +29,7 @@ a {
 }
 #footer-up {
   height: 300px;
-  background-color: black;
+  background-color: #525355;
   padding-top: 2rem;
 }
 .row ul li {
@@ -57,7 +57,7 @@ a {
   margin-left: 1rem;
 }
 #footer-down {
-  background-color: #525355;
+  background-color: black;
   height: 50px;
   text-align: center;
 }
@@ -99,7 +99,7 @@ a {
   padding-left: 4rem;
 }
 #footer-upper {
-  background-color: black;
+  background-color: #525355;
   color: white;
   padding-top: 2.3rem;
 }

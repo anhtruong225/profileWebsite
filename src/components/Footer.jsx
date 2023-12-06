@@ -17,13 +17,15 @@ function Footer() {
             <div className="col-md-4 text-center" id="footer-first">
               <ul>
                 <li>
-                  <a href="#">Home</a>
+                  <Link to="https://anh-truong-portfolio.netlify.app/">
+                    Home
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">About me</a>
+                  <Link to="/aboutMe">About me</Link>
                 </li>
                 <li>
-                  <a href="#">Works</a>
+                  <Link to="/works">Works</Link>
                 </li>
               </ul>
             </div>
@@ -55,13 +57,22 @@ function Footer() {
               <div id="social">
                 <ul>
                   <li>
-                    <a href="#" className="fa fa-github" />
+                    <a
+                      href="https://github.com/anhtruong225"
+                      className="fa fa-github"
+                    />
                   </li>
                   <li>
-                    <a href="#" className="fa fa-linkedin" />
+                    <a
+                      href="https://www.linkedin.com/in/anhtruong225/"
+                      className="fa fa-linkedin"
+                    />
                   </li>
                   <li>
-                    <a href="#" className="fa fa-earth-americas" />
+                    <a
+                      href="https://www.anh-truong-portfolio.netlify.app"
+                      className="fa fa-earth-americas"
+                    />
                   </li>
                 </ul>
               </div>

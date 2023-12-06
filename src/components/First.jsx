@@ -11,6 +11,7 @@ const First = () => {
       <div id="first-container">
         <nav>
           <ul>
+            <Link to="https://anh-truong-portfolio.netlify.app/">Home</Link>
             <Link to="/aboutMe">About me</Link>
             <Link to="/works">Works</Link>
             <Link to="/contactMe">Contact me</Link>
