@@ -407,10 +407,10 @@ function Project() {
 
   return (
     <div id="project-container">
-      <div id="project-container-title">
+      {/* <div id="project-container-title">
         <h1>Projects</h1>
         <div id="linedeco"></div>
-      </div>
+      </div> */}
       <div id="project-body">
         <i
           id="first-chevron"

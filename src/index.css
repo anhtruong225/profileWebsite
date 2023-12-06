@@ -1,56 +1,16 @@
+html,
+body {
+  font-family: "DM Sans", sans-serif;
+}
 a {
   text-decoration: none;
-  font-family: "Poppins", sans-serif;
 }
-a:hover {
+
+/*Footer Design*/
+
+#footer-container {
   color: #f4f4f4;
-}
-button {
-  font-family: "Poppins", sans-serif;
-}
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: "Ubuntu", sans-serif;
-}
-p {
-  font-family: "Poppins", sans-serif;
-  font-size: 1rem;
-}
-li {
-  font-family: "Poppins", sans-serif;
-  font-size: 1rem;
-}
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
   width: 100vw;
-  min-height: 100vh;
-  background-color: rgb(242, 241, 238);
-  /* overflow: hidden; */
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-
-  /*Footer Design*/
-
-  #footer-container {
-    color: #f4f4f4;
-    width: 100vw;
-  }
 }
 #social ul {
   display: flex;
@@ -69,7 +29,7 @@ body {
 }
 #footer-up {
   height: 300px;
-  background-color: #213547;
+  background-color: black;
   padding-top: 2rem;
 }
 .row ul li {
@@ -97,10 +57,13 @@ body {
   margin-left: 1rem;
 }
 #footer-down {
-  background-color: #557592;
+  background-color: #525355;
   height: 50px;
+  text-align: center;
 }
-
+#footer-down p {
+  padding-top: 1rem;
+}
 #icon-text {
   display: flex;
   flex-direction: row;
@@ -136,7 +99,7 @@ body {
   padding-left: 4rem;
 }
 #footer-upper {
-  background-color: #213547;
+  background-color: black;
   color: white;
   padding-top: 2.3rem;
 }
@@ -150,38 +113,7 @@ body {
 #chevron li {
   margin-left: 1rem;
 }
-#copyright {
-  padding-top: 1rem;
-  padding-left: 2rem;
-}
 
-/*Navigation Design*/
-nav {
-  font-family: "Poppins", sans-serif;
-  width: 100vw;
-  height: 5rem;
-  background-color: #213547;
-  position: fixed;
-  z-index: 1000;
-}
-
-#my-navi ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  margin-top: 2rem;
-}
-#my-navi li {
-  padding-left: 3rem;
-  color: #f4f4f4;
-}
-
-#name-logo img {
-  width: 120px;
-  height: 120px;
-  margin-left: 3rem;
-}
 /*First-page*/
 
 #first-page {
@@ -234,10 +166,34 @@ nav {
 
 /*ABOUT ME*/
 #aboutme {
-  height: 800px;
-  background-color: #557592;
   color: #f4f4f4;
-  padding-top: 5rem;
+  background-color: black;
+}
+
+#aboutme-intro {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #525355;
+}
+#aboutme-intro p {
+  width: 40%;
+  font-size: 2rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+#aboutme-intro a {
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #f4f4f4;
+  color: black;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  margin-top: 3rem;
 }
 #aboutme-title {
   display: flex;
@@ -246,6 +202,7 @@ nav {
   align-items: center;
   padding-bottom: 5rem;
 }
+
 #linebreak1 {
   background-color: #f4f4f4;
   width: 100px;
@@ -257,6 +214,8 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 7rem;
+  height: 100vh;
 }
 
 #aboutme-first,
@@ -314,7 +273,6 @@ nav {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 7rem;
 }
 
 #project-container-title {
@@ -336,6 +294,7 @@ nav {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  margin: 6rem 0;
 }
 #project-images,
 #project-images2 {
@@ -361,7 +320,7 @@ nav {
 #upper-text2 {
   width: 100%;
   height: 430px;
-  background-color: #213547;
+  background-color: black;
   color: #f4f4f4;
   display: flex;
   flex-direction: column;
@@ -384,7 +343,7 @@ nav {
   font-size: 0.85rem;
   border-radius: 30px;
   background-color: #f4f4f4;
-  color: #213547;
+  color: black;
   margin-top: 1.5rem;
   text-align: center;
   padding-top: 0.3rem;
@@ -422,7 +381,7 @@ nav {
 #first-lower-text2 {
   width: 50%;
   height: 290px;
-  background-color: #213547;
+  background-color: black;
   color: #f4f4f4;
   display: flex;
   flex-direction: column;
@@ -482,7 +441,7 @@ nav {
   font-size: 0.85rem;
   border-radius: 30px;
   background-color: #f4f4f4;
-  color: #213547;
+  color: black;
   text-align: center;
   padding-top: 0.3rem;
   margin-left: 1rem;

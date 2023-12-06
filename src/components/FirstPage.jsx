@@ -6,7 +6,13 @@ function FirstPage() {
     <div className="row" id="first-page">
       <div className="col-md-4" id="firstpage-left">
         <img src={CVImage} alt="CVImage Anh Truong"></img>
-        <a href="">Download CV</a>
+        <a
+          href="../assets/Anh Truong_Fullstack Entwicklerin.pdf"
+          target="_blank"
+          download
+        >
+          Download CV
+        </a>
       </div>
       <div className="col-md-8" id="firstpage-right">
         <div id="first-icon">

@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -19,10 +20,10 @@ function Footer() {
                   <a href="#">Home</a>
                 </li>
                 <li>
-                  <a href="#">Skills</a>
+                  <a href="#">About me</a>
                 </li>
                 <li>
-                  <a href="#">Projects</a>
+                  <a href="#">Works</a>
                 </li>
               </ul>
             </div>
@@ -67,19 +68,7 @@ function Footer() {
             </div>
           </div>
           <div id="footer-down" className="row">
-            <div id="copyright" className="col-md-8">
-              <p>© 2023 Anh Truong</p>
-            </div>
-            <div id="chevron" className="col-md-4">
-              <ul>
-                <li>Cookies</li>
-                <li>Privacy Policy</li>
-                <li>Term of Use</li>
-                <li>
-                  <a href="#" className="fa fa-chevron-up" />
-                </li>
-              </ul>
-            </div>
+            <p>© 2023 Anh Truong</p>
           </div>
         </div>
       </footer>

@@ -1,25 +1,17 @@
 import React from "react";
-import CVLogo from "../assets/images/AnhLogo.png";
+import { Link } from "react-router-dom";
 
-function Navbar() {
+const Navbar = () => {
   return (
-    <div>
-      <nav>
-        <div className="row">
-          <div className="col-md-2" id="name-logo">
-            <img src={CVLogo} alt="CVLogo_AnhTruong"></img>
-          </div>
-          <div className="col-md-9" id="my-navi">
-            <ul>
-              <li>SKILLS</li>
-              <li>PROJECTS</li>
-              <li>CONTACT</li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
+    <div>Hallo</div>
+    // <nav>
+    //   <ul>
+    //     <Link to="/aboutMe">About me</Link>
+    //     <Link to="/works">Works</Link>
+    //     <Link to="/contactMe">Contact me</Link>
+    //   </ul>
+    // </nav>
   );
-}
+};
 
 export default Navbar;
