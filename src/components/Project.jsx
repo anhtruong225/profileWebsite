@@ -342,8 +342,8 @@ function Project() {
               <br />
               <div className="lower-text-p">
                 <p>
-                  A small solo project after 1 week learning Javascript, basic
-                  but efficient
+                  A small solo project after 1 week learning Javascript, a
+                  to-do-list app
                 </p>
               </div>
               <div className="project-description-lower">

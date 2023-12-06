@@ -18,7 +18,7 @@ function AboutMe() {
       <div id="aboutme-body">
         <div id="aboutme-first">
           <div id="aboutme-text1">
-            <h4>Frontend</h4>
+            <h3>Frontend</h3>
             <i className="fa-solid fa-desktop"></i>
             <ul>
               <li>Javascript, React, Angular</li>
@@ -28,7 +28,7 @@ function AboutMe() {
           </div>
           <div id="aboutme-linebreak1"></div>
           <div id="aboutme-text1">
-            <h4>Backend</h4>
+            <h3>Backend</h3>
             <i className="fa-solid fa-database"></i>
             <ul>
               <li>SQL: PostgreSQL, NoSQL: MongoDB</li>
@@ -40,7 +40,7 @@ function AboutMe() {
         <div id="linebreak-central"></div>
         <div id="aboutme-second">
           <div id="aboutme-text3">
-            <h4>Project Management</h4>
+            <h3>Project Management</h3>
             <i className="fa-solid fa-list-check"></i>
             <ul>
               <li>Agile, SCRUM</li>
@@ -49,7 +49,7 @@ function AboutMe() {
           </div>
           <div id="aboutme-linebreak2"></div>
           <div id="aboutme-text4">
-            <h4>Performance Marketing & UX-UI</h4>
+            <h3>Performance Marketing & UX-UI</h3>
             <i className="fa-solid fa-bullhorn"></i>
             <ul>
               <li>SEO, Automation Marketing</li>
