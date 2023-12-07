@@ -78,9 +78,6 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div id="footer-down" className="row">
-            <p>© 2023 Anh Truong</p>
-          </div>
         </div>
       </footer>
     </div>

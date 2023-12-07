@@ -14,7 +14,9 @@ const First = () => {
             <Link to="https://anh-truong-portfolio.netlify.app/">Home</Link>
             <Link to="/aboutMe">About me</Link>
             <Link to="/works">Works</Link>
-            <Link to="/contactMe">Contact me</Link>
+            <Link to="https://www.linkedin.com/in/anhtruong225/">
+              Contact me
+            </Link>
           </ul>
         </nav>
         <div id="first-leftside">

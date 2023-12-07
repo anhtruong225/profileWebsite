@@ -1,0 +1,72 @@
+footer {
+  background-image: url("../assets/images/AnhLogo.png");
+  background-size: 20%;
+  background-position: 25% 60%;
+  background-repeat: no-repeat;
+  background-color: #f4f4f4;
+  color: black;
+  height: 500px;
+}
+#footer-container {
+  width: 50%;
+  height: auto;
+  margin-left: 50%;
+  padding-top: 5%;
+}
+#footer-first {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#icon-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#only-icon {
+  float: left;
+  vertical-align: bottom;
+  display: flex;
+  flex-direction: column;
+}
+#only-icon a {
+  padding-top: 3.5rem;
+}
+
+#only-text li {
+  display: inline-block;
+  text-align: left;
+  line-height: 1rem;
+  padding-top: 3.2rem;
+  font-size: 1.25rem;
+  vertical-align: bottom;
+}
+#only-text ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
+
+#social ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 200px;
+  padding-top: 2rem;
+}
+#social a {
+  padding-right: 1.5rem;
+  color: black;
+}
+#social li {
+  list-style: none;
+  padding-top: 2rem;
+}
+#copywright {
+  margin-top: 5rem;
+}
