@@ -1,7 +1,7 @@
 footer {
   background-image: url("../assets/images/AnhLogo.png");
-  background-size: 20%;
-  background-position: 25% 60%;
+  background-size: 22%;
+  background-position: 8% 50%;
   background-repeat: no-repeat;
   background-color: #f4f4f4;
   color: black;
@@ -10,8 +10,27 @@ footer {
 #footer-container {
   width: 50%;
   height: auto;
-  margin-left: 50%;
+  margin-left: 35%;
   padding-top: 5%;
+  display: flex;
+  flex-direction: row;
+}
+#footer-menu ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10rem;
+  padding-top: 6rem;
+}
+#footer-menu a,
+#footer-menu a:link,
+#footer-menu a:visited,
+#footer-menu a:hover {
+  list-style: none;
+  font-size: 1.25rem;
+  padding-top: 1rem;
+  color: black;
 }
 #footer-first {
   display: flex;
