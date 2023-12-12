@@ -20,10 +20,12 @@ const First = () => {
           </ul>
         </nav>
         <div id="first-leftside">
-          <p>
-            👋 Hi there, here is <b>Anh Truong</b>
-          </p>
-          <h1>I'm a full stack developer</h1>
+          <div>
+            <p>
+              👋 Hi there, here is <b>Anh Truong</b>
+            </p>
+            <h1>I'm a full stack developer</h1>
+          </div>
           <h5>
             My mission is making your website beautiful, fully functional and
             responsive. <br /> It is not only my work, it is my passion!
@@ -34,11 +36,6 @@ const First = () => {
               <i className="fa-solid fa-arrow-up-right-from-square"></i>
             </a>
           </div>
-        </div>
-        <div id="mouse-icon" className="flex-item floating">
-          <Link to="/aboutMe">
-            <img src={MouseIcon} alt="mouse-icon"></img>
-          </Link>
         </div>
       </div>
       <AboutMe />
